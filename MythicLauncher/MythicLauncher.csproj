@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>images\Logo_Large.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Logo_Large.jpg" />
+    <None Remove="images\Logo_Wide.jpg" />
+    <None Remove="images\Logo_WithBackground.jpg" />
+    <None Remove="images\MoonlitNight.gif" />
+    <None Remove="images\MoonlitNight.png" />
+    <None Remove="MoonlitNight.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Logo_Large.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Logo_Large.jpg" />
+    <Resource Include="images\Logo_Wide.jpg" />
+    <Resource Include="images\Logo_WithBackground.jpg" />
+    <Resource Include="images\MoonlitNight.gif" />
+    <Resource Include="images\MoonlitNight.png" />
+    <Resource Include="MoonlitNight.png" />
+  </ItemGroup>
+
+</Project>
