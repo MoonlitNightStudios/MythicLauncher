@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MythicLauncher"
         mc:Ignorable="d"
         Title="Moonlit Night Studios" 
-        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Height="450" Width="800" Icon="/images/Logo_Large.ico">
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Height="450" Width="800" Icon="/Images/Logo_Large.ico">
     <Window.Background>
         <ImageBrush ImageSource="images/Logo_WithBackground.jpg" Stretch="UniformToFill"/>
     </Window.Background>
@@ -23,6 +23,9 @@
         <Button Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Background="#00DDDDDD" BorderBrush="Transparent">
             <TextBlock Text="Moonlit Night Studios Ltd" Foreground="White" VerticalAlignment="Center" FontSize="24" Padding="20,0,0,0"/>
         </Button>
-        <Button x:Name="LaunchButton" Grid.Column="2" Content="Launch" Margin="500,20,50,20" Grid.Row="1" Background="MidnightBlue" Foreground="White"/>
+        <StackPanel Grid.Column="1" Margin="500,10,50,10" Orientation="Vertical" Grid.Row="1">
+            <TextBlock x:Name="VersionText" TextWrapping="Wrap" Text="0.0.1" Foreground="White"/>
+            <Button x:Name="LaunchButton" Content="Launch" Background="MidnightBlue" Foreground="White" Click="Launch_Clicked" Height="32" Width="188"/>
+        </StackPanel>
     </Grid>
 </Window>

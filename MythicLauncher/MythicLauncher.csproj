@@ -10,24 +10,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\Logo_Large.jpg" />
-    <None Remove="images\Logo_Wide.jpg" />
-    <None Remove="images\Logo_WithBackground.jpg" />
-    <None Remove="images\MoonlitNight.gif" />
-    <None Remove="images\MoonlitNight.png" />
+    <None Remove="Images\Logo_Large.jpg" />
+    <None Remove="Images\Logo_Wide.jpg" />
+    <None Remove="Images\Logo_WithBackground.jpg" />
+    <None Remove="Images\MoonlitNight.gif" />
+    <None Remove="Images\MoonlitNight.png" />
     <None Remove="MoonlitNight.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\Logo_Large.ico" />
+    <Resource Include="Images\Logo_Large.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\Logo_Large.jpg" />
-    <Resource Include="images\Logo_Wide.jpg" />
-    <Resource Include="images\Logo_WithBackground.jpg" />
-    <Resource Include="images\MoonlitNight.gif" />
-    <Resource Include="images\MoonlitNight.png" />
+    <Resource Include="Images\Logo_Large.jpg" />
+    <Resource Include="Images\Logo_Wide.jpg" />
+    <Resource Include="Images\Logo_WithBackground.jpg" />
+    <Resource Include="Images\MoonlitNight.gif" />
+    <Resource Include="Images\MoonlitNight.png" />
     <Resource Include="MoonlitNight.png" />
   </ItemGroup>
 
