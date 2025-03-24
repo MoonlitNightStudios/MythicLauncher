@@ -5,9 +5,11 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MythicLauncher.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="100">
+             d:DesignHeight="60" d:DesignWidth="60">
     <Grid>
-        <Image x:Name="ModuleIcon"/>
+        <Button Background="White" BorderBrush="#FF0010FF" Click="OnClicked">
+            <Image x:Name="ModuleIcon" Width="60" Height="60" Source="/Images/Logo_Large.jpg"/>
+        </Button>
 
     </Grid>
 </UserControl>
